@@ -1,0 +1,46 @@
+@font-face{
+	font-family: "Abr";
+	src:url("fonts/AbrilFatface-Regular.ttf");
+	font-family: "Pac";
+	src:url("fonts/Pacifico-Regular.ttf");
+}
+*{
+	font-family: "Abr";
+	margin: 0px;
+	padding: 0px;
+}
+#contact{
+	background: linear-gradient(to right,,#ffe6f3, #ff80c1);
+}
+.contact ul{
+	text-align: center;
+}
+.contact ul li{
+	display: inline-block;
+	font-size: 30px;
+	line-height: 70px;
+	margin: 0px 40px;
+}
+.contact a{
+	text-decoration: none;
+}
+.contact a{
+	color:green;
+}
+.contact a:hover{
+	color:white;
+}
+.contact a:active{
+	color: white;
+}
+.contact a:visited{
+	color:green;
+}
+#map{
+	margin-top: 20px;
+
+}
+#contact_pad{
+	margin-top: 20px;
+	color:#ff3399 ;
+}

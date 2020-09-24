@@ -1,0 +1,79 @@
+@font-face{
+	font-family: "Abr";
+	src:url("fonts/AbrilFatface-Regular.ttf");
+	font-family: "Pac";
+	src:url("fonts/Pacifico-Regular.ttf");
+}
+*{
+	font-family: "Abr";
+	margin: 0px;
+	padding: 0px;
+}
+
+#services{
+	background: linear-gradient(to right,,#ffe6f3, #ff80c1);
+}
+.services ul{
+	text-align: center;
+}
+.services ul li{
+	display: inline-block;
+	font-size: 30px;
+	line-height: 70px;
+	margin: 0px 40px;
+}
+.services a{
+	text-decoration: none;
+}
+.services a{
+	color:black;
+}
+.services a:hover{
+	color:white;
+}
+.services a:active{
+	color: purple;
+}
+.services a:visited{
+	color:#ff0066;
+}
+#services_s{
+	
+	font-size: 80px;
+	color: #800080;
+	margin: 30px 0px;
+}
+#float{
+	clear: both;
+}
+#flower_service{
+	font-family: "Pac";
+	color: purple;
+	width: 1100px;
+	margin: 0px;
+	padding: 0px 90px;
+}
+.flower_service{
+	width: 400px;
+	margin-top: 20px;
+	float: left;
+	margin: 30px;
+	line-height: 30px;
+}
+.class{
+	clear: both;
+}
+#flower_delivery{
+	font-family: "Pac";
+	color:purple;
+	width: 1100px;
+	margin: 0px;
+	padding: 0px 90px;
+}
+.flower_delivery{
+	width: 400px;
+	margin-top: 20px;
+	float: left;
+	margin: 30px;
+	line-height: 30px;
+}
